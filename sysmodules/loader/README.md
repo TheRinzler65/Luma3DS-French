@@ -1,28 +1,30 @@
-Remplacement du chargeur 3DS
+3DS Loader Replacement
 ======================
 
-Il s'agit d'une implémentation open source du module système 3DS `loader`, avec 
-des fonctionnalités supplémentaires. Le but actuel du projet est de fournir 
-un point d'entrée agréable pour patcher les modules 3DS.
+This is an open source implementation of 3DS `loader` system module--with 
+additional features. The current aim of the project is to provide a nice 
+entry point for patching 3DS modules.
 
 ## Roadmap
-Pour l'instant, il peut servir de substitut open-source au chargeur intégré. 
-Il y a un support additionnel pour patcher n'importe quel exécutable après qu'il soit chargé mais avant qu'il ne démarre. 
-Par exemple, vous pouvez patcher `menu` pour sauter les vérifications de régions et avoir
-un jeu sans région qui se lance directement depuis le menu d'accueil. 
-Il y a aussi un support pour la lecture de SDMC (non trouvé dans l'implémentation originale du loader)
-ce qui signifie que les patches peuvent être chargés à partir de la carte SD. 
-En fin de compte, il y aurait un système de patch qui supporterait le chargement facile de patchs depuis la carte SD.
+Right now, this can serve as an open-source replacement for the built in loader. 
+There is additional support for patching any executable after it's loaded but 
+before it starts. For example, you can patch `menu` to skip region checks and 
+have region free game launching directly from the home menu. There is also 
+support for SDMC reading (not found in original loader implementation) which 
+means that patches can be loaded from the SD card. Ultimately, there would be 
+a patch system that supports easy loading of patches from the SD card.
 
 ## Build
-Vous avez besoin d'un environnement de construction 3DS fonctionnel avec une copie
-assez récente de devkitARM, ctrulib, et makerom. Si vous voyez des erreurs dans le processus de construction,
-il est probable que vous utilisiez une ancienne version.
+You need a working 3DS build environment with a fairly recent copy of devkitARM, 
+ctrulib, and makerom. If you see any errors in the build process, it's likely 
+that you're using an older version.
 
-Actuellement, il n'y a pas de support pour la construction de FIRM, vous devez donc effectuer certaines étapes manuellement.
-Tout d'abord, vous devez ajouter du rembourrage pour vous assurer que la CNH est de la bonne taille pour la remplacer.
-Un moyen détourné est [Ce Patch](http://pastebin.com/nyKXLnNh) qui ajoute des données inutiles. Jouez avec la valeur de
-la taille pour que la NCCH ait exactement la même taille que celle trouvée dans votre fichier FIRM décrypté.
+Currently, there is no support for FIRM building, so you need to do some steps 
+manually. First, you have to add padding to make sure the NCCH is of the right 
+size to drop in as a replacement. A hacky way is 
+[this patch](http://pastebin.com/nyKXLnNh) which adds junk data. Play around 
+with the size value to get the NCCH to be the exact same size as the one 
+found in your decrypted FIRM dump.
 
-Une fois que vous avez un NCCH de la bonne taille, il vous suffit de le remplacer dans
-votre FIRM décrypté et de trouver un moyen de le lancer (par exemple avec ReiNAND).
+Once you have a NCCH of the right size, just replace it in your decrypted FIRM 
+and find a way to launch it (for example with ReiNAND).
