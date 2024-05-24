@@ -167,10 +167,10 @@ $(OUTPUT).elf	:	$(OFILES)
 $(OFILES_SRC)	: $(HFILES_BIN)
 
 memory.o strings.o:	CFLAGS +=	-O3
-patches.o config.o:	CFLAGS +=	-DCONFIG_TITLE="\"$(APP_TITLE) $(REVISION) configuration\""\
+patches.o config.o:	CFLAGS +=	-DCONFIG_TITLE="\"$(APP_TITLE) $(REVISION) FR - Configuration\""\
 								-DVERSION_MAJOR="$(VERSION_MAJOR)" -DVERSION_MINOR="$(VERSION_MINOR)"\
 								-DVERSION_BUILD="$(VERSION_BUILD)" -DISRELEASE="$(IS_RELEASE)" -DCOMMIT_HASH="0x$(COMMIT)"
-config.o ini.o:		CFLAGS +=	-DINI_HANDLER_LINENO=1 -DINI_STOP_ON_FIRST_ERROR=1
+config.o ini.o:		CFLAGS +=	-DINI_HANDLER_LINENO=1 -DINI_STOP_ON_FIRST_ERROR=1 -DCP437 -DCP863
 #---------------------------------------------------------------------------------
 # you need a rule like this for each extension you use as binary data
 #---------------------------------------------------------------------------------
