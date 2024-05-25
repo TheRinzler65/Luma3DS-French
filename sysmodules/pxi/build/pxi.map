@@ -1,0 +1,1514 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/devkitPro/libctru/lib\libctru.a(srv.o)
+                              main.o (srvInit)
+C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+                              main.o (__sync_init)
+C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+                              C:/devkitPro/libctru/lib\libctru.a(srv.o) (srvPmGetSessionHandle)
+C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o (__system_argc)
+C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                              main.o (svcExitProcess)
+C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+                              C:/devkitPro/libctru/lib\libctru.a(initArgv.o) (__3dslink_host)
+C:/devkitPro/libctru/lib\libctru.a(env.o)
+                              C:/devkitPro/libctru/lib\libctru.a(srv.o) (envGetHandle)
+C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+                              C:/devkitPro/libctru/lib\libctru.a(3dslink.o) (connect)
+C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+                              C:/devkitPro/libctru/lib\libctru.a(3dslink.o) (socket)
+C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+                              C:/devkitPro/libctru/lib\libctru.a(soc_connect.o) (_net_convert_error)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncmp.o)
+                              C:/devkitPro/libctru/lib\libctru.a(initArgv.o) (strncmp)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strlen-stub.o)
+                              C:/devkitPro/libctru/lib\libctru.a(initArgv.o) (strlen)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o)
+                              C:/devkitPro/libctru/lib\libctru.a(initArgv.o) (strtoul)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-sysclose.o)
+                              C:/devkitPro/libctru/lib\libctru.a(3dslink.o) (close)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strnlen.o)
+                              C:/devkitPro/libctru/lib\libctru.a(srv.o) (strnlen)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-errno.o)
+                              C:/devkitPro/libctru/lib\libctru.a(soc_connect.o) (__errno)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memcpy-stub.o)
+                              sender.o (memcpy)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-ctype_.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o) (_ctype_)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memset.o)
+                              main.o (memset)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncpy.o)
+                              C:/devkitPro/libctru/lib\libctru.a(srv.o) (strncpy)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strcmp.o)
+                              C:/devkitPro/libctru/lib\libctru.a(soc_connect.o) (strcmp)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o)
+                              C:/devkitPro/libctru/lib\libctru.a(3dslink.o) (fflush)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-impure.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o) (_impure_data)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o) (__sglue)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o) (_malloc_r)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-freer.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o) (_free_r)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fwalk.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o) (_fwalk_sglue)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mlock.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o) (__malloc_lock)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o) (__sread)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fclose.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o) (_fclose_r)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+                              C:/devkitPro/libctru/lib\libctru.a(3dslink.o) (__getreent)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+                              C:/devkitPro/libctru/lib\libctru.a(soc_socket.o) (__release_handle)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+                              C:/devkitPro/libctru/lib\libctru.a(soc_socket.o) (FindDevice)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o) (_lseek_r)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+                              C:/devkitPro/libctru/lib\libctru.a(initArgv.o) (fake_heap_start)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-read.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o) (_read_r)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o) (_sbrk_r)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o) (__libc_lock_acquire)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-write.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o) (_write_r)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o) (clock_gettime)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_udivsi3.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o) (__aeabi_uidiv)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_dvmd_tls.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strchr.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o) (strchr)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-malloc.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o) (malloc)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crti.o
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crti.o
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crti.o
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ .data.__dso_handle
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ .text          0x00000000        0x0 MyThread.o
+ .data          0x00000000        0x0 MyThread.o
+ .bss           0x00000000        0x0 MyThread.o
+ .text.MyThread_Exit
+                0x00000000        0x8 MyThread.o
+ .comment       0x00000000       0x24 MyThread.o
+ .text          0x00000000        0x0 PXI.o
+ .data          0x00000000        0x0 PXI.o
+ .bss           0x00000000        0x0 PXI.o
+ .comment       0x00000000       0x24 PXI.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text.__ctru_exit
+                0x00000000        0x4 main.o
+ .comment       0x00000000       0x24 main.o
+ .text          0x00000000        0x0 receiver.o
+ .data          0x00000000        0x0 receiver.o
+ .bss           0x00000000        0x0 receiver.o
+ .comment       0x00000000       0x24 receiver.o
+ .text          0x00000000        0x0 sender.o
+ .data          0x00000000        0x0 sender.o
+ .bss           0x00000000        0x0 sender.o
+ .comment       0x00000000       0x24 sender.o
+ .text          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .data          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .bss           0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvSetBlockingPolicy
+                0x00000000        0xc C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvGetSessionHandle
+                0x00000000        0xc C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvRegisterClient
+                0x00000000       0x34 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvUnregisterService
+                0x00000000       0x58 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvGetServiceHandleDirect
+                0x00000000       0xa0 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvGetServiceHandle
+                0x00000000       0x38 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvRegisterPort
+                0x00000000       0x64 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvUnregisterPort
+                0x00000000       0x58 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvGetPort
+                0x00000000       0x88 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvWaitForPortRegistered
+                0x00000000       0x5c C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvSubscribe
+                0x00000000       0x34 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvUnsubscribe
+                0x00000000       0x34 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvPublishAndGetSubscriber
+                0x00000000       0x88 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvIsServiceRegistered
+                0x00000000       0x90 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text.srvIsPortRegistered
+                0x00000000       0x6c C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .comment       0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .text          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .data          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .bss           0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.syncArbitrateAddress
+                0x00000000       0x2c C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.syncArbitrateAddressWithTimeout
+                0x00000000       0x2c C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightLock_Init
+                0x00000000       0x1c C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightLock_TryLock
+                0x00000000       0x44 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightLock_Unlock
+                0x00000000       0x40 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.RecursiveLock_Init
+                0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.RecursiveLock_TryLock
+                0x00000000       0x78 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.CondVar_Init
+                0x00000000        0xc C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.CondVar_Wait
+                0x00000000       0x84 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.CondVar_WaitTimeout
+                0x00000000       0xe8 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.CondVar_WakeUp
+                0x00000000       0xb0 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightEvent_Init
+                0x00000000       0x40 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightEvent_Clear
+                0x00000000       0xa4 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightEvent_Pulse
+                0x00000000       0x48 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightEvent_Signal
+                0x00000000       0xc8 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightEvent_TryWait
+                0x00000000       0x50 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightEvent_Wait
+                0x00000000       0xa0 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightEvent_WaitTimeout
+                0x00000000       0xd8 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightSemaphore_Init
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightSemaphore_Acquire
+                0x00000000       0x94 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightSemaphore_TryAcquire
+                0x00000000       0x38 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text.LightSemaphore_Release
+                0x00000000       0x64 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .comment       0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .text          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .data          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .bss           0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .text.srvPmExit
+                0x00000000       0x70 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .rodata.srvPmInit.str1.4
+                0x00000000        0x7 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .text.srvPmInit
+                0x00000000       0xb8 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .text.SRVPM_PublishToProcess
+                0x00000000       0x60 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .text.SRVPM_PublishToAll
+                0x00000000       0x58 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .text.SRVPM_RegisterProcess
+                0x00000000       0x6c C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .text.SRVPM_UnregisterProcess
+                0x00000000       0x58 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .bss.srvPmRefCount
+                0x00000000        0x4 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .comment       0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .text          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .data          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .bss           0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .rodata.__system_initArgv.str1.4
+                0x00000000        0xa C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .text.__system_initArgv
+                0x00000000      0x170 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .comment       0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .text          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .data          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .bss           0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcControlMemory
+                0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcQueryMemory
+                0x00000000       0x30 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetProcessAffinityMask
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetProcessAffinityMask
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetProcessIdealProcessor
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetProcessIdealProcessor
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetThreadPriority
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetThreadPriority
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetThreadAffinityMask
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetThreadAffinityMask
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetThreadIdealProcessor
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetThreadIdealProcessor
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetProcessorID
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcRun   0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcClearEvent
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcCreateTimer
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetTimer
+                0x00000000       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcCancelTimer
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcClearTimer
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcCreateMemoryBlock
+                0x00000000       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcMapMemoryBlock
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcUnmapMemoryBlock
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcArbitrateAddress
+                0x00000000       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetSystemTick
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetHandleInfo
+                0x00000000       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetSystemInfo
+                0x00000000       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetProcessInfo
+                0x00000000       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetThreadInfo
+                0x00000000       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcOpenProcess
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcOpenThread
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetProcessId
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetProcessIdOfThread
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetThreadId
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetResourceLimit
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetResourceLimitLimitValues
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetResourceLimitCurrentValues
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcOutputDebugString
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcControlPerformanceCounter
+                0x00000000       0x1c C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcCreatePort
+                0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcCreateSessionToPort
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcCreateSession
+                0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcInvalidateProcessDataCache
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcStoreProcessDataCache
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcFlushProcessDataCache
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcStartInterProcessDma
+                0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcStopDma
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetDmaState
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcRestartDma
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetGpuProt
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetWifiEnabled
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcDebugActiveProcess
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcBreakDebugProcess
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcTerminateDebugProcess
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetProcessDebugEvent
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcContinueDebugEvent
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetProcessList
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetThreadList
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetDebugThreadContext
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetDebugThreadContext
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcQueryDebugProcessMemory
+                0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcReadProcessMemory
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcWriteProcessMemory
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetHardwareBreakPoint
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcGetDebugThreadParam
+                0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcControlProcessMemory
+                0x00000000       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcMapProcessMemory
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcUnmapProcessMemory
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcCreateCodeSet
+                0x00000000       0x1c C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcCreateProcess
+                0x00000000       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcTerminateProcess
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetProcessResourceLimits
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcCreateResourceLimit
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcSetResourceLimitValues
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcBackdoor
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcKernelSetState
+                0x00000000        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text.svcQueryProcessMemory
+                0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .text          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .data          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .bss           0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .text.link3dsConnectToHost
+                0x00000000       0xd8 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .data.sock     0x00000000        0x4 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .bss.__3dslink_host
+                0x00000000        0x4 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .debug_info    0x00000000      0xa42 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .debug_abbrev  0x00000000      0x259 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .debug_loclists
+                0x00000000       0x82 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .debug_aranges
+                0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .debug_rnglists
+                0x00000000       0x14 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .debug_line    0x00000000      0x3c8 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .debug_str     0x00000000      0x65b C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .comment       0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .debug_frame   0x00000000       0x34 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/libctru/lib\libctru.a(3dslink.o)
+ .text          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .data          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .bss           0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .text.envGetHandle
+                0x00000000       0x84 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .text.envDestroyHandles
+                0x00000000       0x50 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .debug_info    0x00000000      0x2a9 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .debug_abbrev  0x00000000      0x1bf C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .debug_loclists
+                0x00000000       0xdf C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .debug_aranges
+                0x00000000       0x28 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .debug_rnglists
+                0x00000000       0x1a C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .debug_line    0x00000000      0x241 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .debug_str     0x00000000      0x278 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .comment       0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .debug_frame   0x00000000       0x4c C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/libctru/lib\libctru.a(env.o)
+ .text          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .data          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .bss           0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .rodata.connect.str1.4
+                0x00000000        0x4 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .text.connect  0x00000000      0x174 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .debug_info    0x00000000     0x139b C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .debug_abbrev  0x00000000      0x360 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .debug_loclists
+                0x00000000      0x220 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .debug_aranges
+                0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .debug_rnglists
+                0x00000000       0x45 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .debug_line    0x00000000      0x4a1 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .debug_str     0x00000000      0xa8d C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .comment       0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .debug_frame   0x00000000       0x40 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/libctru/lib\libctru.a(soc_connect.o)
+ .text          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .data          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .bss           0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .rodata.socket.str1.4
+                0x00000000        0x5 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .text.socket   0x00000000      0x14c C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .debug_info    0x00000000      0x400 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .debug_abbrev  0x00000000      0x219 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .debug_loclists
+                0x00000000      0x15d C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .debug_aranges
+                0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .debug_rnglists
+                0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .debug_line    0x00000000      0x313 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .debug_str     0x00000000      0x376 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .comment       0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .debug_frame   0x00000000       0x30 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/libctru/lib\libctru.a(soc_socket.o)
+ .text          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .data          0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .bss           0x00000000        0x0 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .text._net_convert_error
+                0x00000000       0x3c C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .rodata._net_error_code_map
+                0x00000000       0x4d C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .bss.h_errno   0x00000000        0x4 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .bss.socMemhandle
+                0x00000000        0x4 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .bss.SOCU_handle
+                0x00000000        0x4 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .debug_info    0x00000000      0x188 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .debug_abbrev  0x00000000       0xd4 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .debug_loclists
+                0x00000000       0x46 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .debug_aranges
+                0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .debug_rnglists
+                0x00000000       0x13 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .debug_line    0x00000000      0x1a6 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .debug_str     0x00000000      0x273 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .comment       0x00000000       0x24 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .debug_frame   0x00000000       0x20 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/libctru/lib\libctru.a(soc_common.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncmp.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncmp.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncmp.o)
+ .text.strncmp  0x00000000       0xe4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncmp.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncmp.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncmp.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strlen-stub.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strlen-stub.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strlen-stub.o)
+ .text.strlen   0x00000000       0x5c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strlen-stub.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strlen-stub.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strlen-stub.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o)
+ .text._strtoul_l.isra.0
+                0x00000000      0x1d8 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o)
+ .text._strtoul_r
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o)
+ .text.strtoul_l
+                0x00000000       0x28 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o)
+ .text.strtoul  0x00000000       0x34 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strtoul.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-sysclose.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-sysclose.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-sysclose.o)
+ .text.close    0x00000000       0x18 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-sysclose.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-sysclose.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-sysclose.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strnlen.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strnlen.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strnlen.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strnlen.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-errno.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-errno.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-errno.o)
+ .text.__errno  0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-errno.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-errno.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memcpy-stub.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memcpy-stub.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-ctype_.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-ctype_.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-ctype_.o)
+ .text.__set_ctype
+                0x00000000       0x10 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-ctype_.o)
+ .rodata._ctype_
+                0x00000000      0x101 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-ctype_.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-ctype_.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-ctype_.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memset.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memset.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memset.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncpy.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncpy.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncpy.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncpy.o)
+ .text          0x00000000      0x390 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strcmp.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strcmp.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strcmp.o)
+ .ARM.attributes
+                0x00000000       0x1a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strcmp.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x22c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x94 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x3c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fflush.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-impure.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-impure.o)
+ .data._impure_data
+                0x00000000      0x120 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-impure.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-impure.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x00000000       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x00000000       0x5c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x34 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x34 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00000000      0x154 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000      0x134 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.__sinit  0x00000000       0x5c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x2c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x2c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .bss.__sfp_recursive_mutex
+                0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .data.__sglue  0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .bss.__sf      0x00000000      0x168 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .bss.__stdio_exit_handler
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x00000000      0x79c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .bss.__malloc_current_mallinfo
+                0x00000000       0x28 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .bss.__malloc_max_total_mem
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .bss.__malloc_max_sbrked_mem
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .data.__malloc_sbrk_base
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .bss.__malloc_top_pad
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .data.__malloc_trim_threshold
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .data.__malloc_av_
+                0x00000000      0x408 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-freer.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-freer.o)
+ .text._malloc_trim_r
+                0x00000000       0xf8 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-freer.o)
+ .text._free_r  0x00000000      0x2e8 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-freer.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-freer.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x00000000       0x70 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fwalk.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mlock.o)
+ .text.__malloc_lock
+                0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mlock.o)
+ .text.__malloc_unlock
+                0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mlock.o)
+ .bss.__malloc_recursive_mutex
+                0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mlock.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+ .text.__sread  0x00000000       0x44 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x8 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x68 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+ .text.__sseek  0x00000000       0x44 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fclose.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fclose.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fclose.o)
+ .text._fclose_r
+                0x00000000      0x148 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fclose.o)
+ .text.fclose   0x00000000       0x18 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fclose.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fclose.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-fclose.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+ .text.__getreent
+                0x00000000       0x2c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .text.__release_handle
+                0x00000000       0x8c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .text.__alloc_handle
+                0x00000000       0xb0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .text.__get_handle
+                0x00000000       0x3c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .text.dup      0x00000000       0x90 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .text.dup2     0x00000000      0x134 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .text._close_r
+                0x00000000       0xf4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .bss.__hndl_lock
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .data.handles  0x00000000     0x1000 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .data.__stderr_handle
+                0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .data.__stdout_handle
+                0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .data.__stdin_handle
+                0x00000000        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .text.null_write
+                0x00000000        0x8 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .text.setDefaultDevice
+                0x00000000       0x18 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .text.FindDevice
+                0x00000000       0xc8 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .text.RemoveDevice
+                0x00000000       0x28 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .rodata.AddDevice.str1.4
+                0x00000000        0x8 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .text.AddDevice
+                0x00000000       0x9c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .text.GetDeviceOpTab
+                0x00000000       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .data.devoptab_list
+                0x00000000       0x8c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .rodata.dotab_stdnull
+                0x00000000       0x80 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .data.defaultDevice
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+ .text._lseek_r
+                0x00000000       0x84 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+ .bss.fake_heap_start
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+ .bss.fake_heap_end
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-read.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-read.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-read.o)
+ .text._read_r  0x00000000       0x80 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-read.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-read.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-read.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ .text._sbrk_r  0x00000000       0x78 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ .bss.heap_start.0
+                0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.timespec2nsec
+                0x00000000       0x28 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.abstimespec2nsec
+                0x00000000       0xdc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.__libc_lock_acquire
+                0x00000000       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.__libc_lock_try_acquire
+                0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.__libc_lock_release
+                0x00000000       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.__libc_lock_acquire_recursive
+                0x00000000       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.__libc_lock_try_acquire_recursive
+                0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.__libc_lock_release_recursive
+                0x00000000       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.__libc_cond_signal
+                0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.__libc_cond_broadcast
+                0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.__libc_cond_wait
+                0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.__libc_cond_wait_recursive
+                0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-write.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-write.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-write.o)
+ .text._write_r
+                0x00000000       0x80 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-write.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-write.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-write.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ .text.clock_gettime
+                0x00000000       0x34 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ .text.clock_settime
+                0x00000000       0x34 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ .text.clock_getres
+                0x00000000       0x34 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ .text          0x00000000      0x20c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strchr.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strchr.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strchr.o)
+ .text.strchr   0x00000000      0x130 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strchr.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strchr.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strchr.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-malloc.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-malloc.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-malloc.o)
+ .text.malloc   0x00000000       0x18 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-malloc.o)
+ .text.free     0x00000000       0x18 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-malloc.o)
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-malloc.o)
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-malloc.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtend.o
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtend.o
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtend.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtend.o
+ .eh_frame      0x00000000        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtend.o
+ .comment       0x00000000       0x24 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtend.o
+ .ARM.attributes
+                0x00000000       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtend.o
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtn.o
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtn.o
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00100000                        PROVIDE (__start__ = 0x100000)
+                0x00100000                        . = __start__
+
+.text           0x00100000     0x1f74
+ *(.crt0)
+ .crt0          0x00100000       0x94 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
+                0x00100000                _start
+                0x00100008                __service_ptr
+                0x0010000c                __apt_appid
+                0x00100010                __heap_size
+                0x00100014                __linear_heap_size
+                0x00100018                __system_arglist
+                0x0010001c                __system_runflags
+ *(.init)
+ .init          0x00100094        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crti.o
+                0x00100094                _init
+ .init          0x001000a0        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtn.o
+                0x001000ac                        . = ALIGN (0x4)
+ *(.text)
+ *(.text.*)
+ .text.__do_global_dtors_aux
+                0x001000ac       0x40 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ .text.frame_dummy
+                0x001000ec       0x2c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ .text._thread_begin
+                0x00100118       0x10 MyThread.o
+ .text.MyThread_Create
+                0x00100128       0x2c MyThread.o
+                0x00100128                MyThread_Create
+ .text.MyThread_Join
+                0x00100154       0x38 MyThread.o
+                0x00100154                MyThread_Join
+ .text.PXIReset
+                0x0010018c       0x40 PXI.o
+                0x0010018c                PXIReset
+ .text.PXITriggerSync9IRQ
+                0x001001cc       0x18 PXI.o
+                0x001001cc                PXITriggerSync9IRQ
+ .text.PXIIsSendFIFOFull
+                0x001001e4       0x18 PXI.o
+                0x001001e4                PXIIsSendFIFOFull
+ .text.PXISendByte
+                0x001001fc       0x10 PXI.o
+                0x001001fc                PXISendByte
+ .text.PXISendWord
+                0x0010020c       0x1c PXI.o
+                0x0010020c                PXISendWord
+ .text.PXISendBuffer
+                0x00100228       0x30 PXI.o
+                0x00100228                PXISendBuffer
+ .text.PXIIsReceiveFIFOEmpty
+                0x00100258       0x18 PXI.o
+                0x00100258                PXIIsReceiveFIFOEmpty
+ .text.PXIReceiveByte
+                0x00100270       0x10 PXI.o
+                0x00100270                PXIReceiveByte
+ .text.PXIReceiveWord
+                0x00100280       0x1c PXI.o
+                0x00100280                PXIReceiveWord
+ .text.PXIReceiveBuffer
+                0x0010029c       0x30 PXI.o
+                0x0010029c                PXIReceiveBuffer
+ .text.unbindPXIInterrupts
+                0x001002cc       0x88 PXI.o
+                0x001002cc                unbindPXIInterrupts
+ .text.bindPXIInterrupts
+                0x00100354       0xe8 PXI.o
+                0x00100354                bindPXIInterrupts
+ .text.__wrap_exit
+                0x0010043c       0x7c main.o
+                0x0010043c                __wrap_exit
+ .text.initSystem
+                0x001004b8      0x328 main.o
+                0x001004b8                initSystem
+ .text.startup.main
+                0x001007e0      0x340 main.o
+                0x001007e0                main
+ .text.receiver
+                0x00100b20      0x238 receiver.o
+                0x00100b20                receiver
+ .text.acquireStaticBuffers
+                0x00100d58       0x8c sender.o
+ *fill*         0x00100de4        0x4 
+ .text.sendPXICmdbuf
+                0x00100de8      0x124 sender.o
+                0x00100de8                sendPXICmdbuf
+ .text.sender   0x00100f0c      0x5d8 sender.o
+                0x00100f0c                sender
+ *fill*         0x001014e4        0x4 
+ .text.PXISRV11Handler
+                0x001014e8      0x188 sender.o
+                0x001014e8                PXISRV11Handler
+ .text.srvInit  0x00101670      0x12c C:/devkitPro/libctru/lib\libctru.a(srv.o)
+                0x00101670                srvInit
+ .text.srvExit  0x0010179c       0x58 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+                0x0010179c                srvExit
+ .text.srvEnableNotification
+                0x001017f4       0x60 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+                0x001017f4                srvEnableNotification
+ .text.srvRegisterService
+                0x00101854       0x90 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+                0x00101854                srvRegisterService
+ .text.srvReceiveNotification
+                0x001018e4       0x60 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+                0x001018e4                srvReceiveNotification
+ .text.srvPublishToSubscriber
+                0x00101944       0x38 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+                0x00101944                srvPublishToSubscriber
+ .text.__sync_init
+                0x0010197c        0xc C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+                0x0010197c                __sync_init
+ .text.__sync_fini
+                0x00101988       0x18 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+                0x00101988                __sync_fini
+ .text.LightLock_Lock
+                0x001019a0       0xac C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+                0x001019a0                LightLock_Lock
+ .text.RecursiveLock_Lock
+                0x00101a4c       0x30 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+                0x00101a4c                RecursiveLock_Lock
+ .text.RecursiveLock_Unlock
+                0x00101a7c       0x54 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+                0x00101a7c                RecursiveLock_Unlock
+ .text.srvPmGetSessionHandle
+                0x00101ad0        0xc C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+                0x00101ad0                srvPmGetSessionHandle
+ .text.svcExitProcess
+                0x00101adc        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101adc                svcExitProcess
+ .text.svcCreateThread
+                0x00101ae4       0x20 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101ae4                svcCreateThread
+ .text.svcExitThread
+                0x00101b04        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b04                svcExitThread
+ .text.svcSleepThread
+                0x00101b0c        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b0c                svcSleepThread
+ .text.svcCreateMutex
+                0x00101b14       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b14                svcCreateMutex
+ .text.svcReleaseMutex
+                0x00101b28        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b28                svcReleaseMutex
+ .text.svcCreateSemaphore
+                0x00101b30       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b30                svcCreateSemaphore
+ .text.svcReleaseSemaphore
+                0x00101b44       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b44                svcReleaseSemaphore
+ .text.svcCreateEvent
+                0x00101b58       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b58                svcCreateEvent
+ .text.svcSignalEvent
+                0x00101b6c        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b6c                svcSignalEvent
+ .text.svcCreateAddressArbiter
+                0x00101b74       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b74                svcCreateAddressArbiter
+ .text.svcArbitrateAddressNoTimeout
+                0x00101b88        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b88                svcArbitrateAddressNoTimeout
+ .text.svcCloseHandle
+                0x00101b90        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b90                svcCloseHandle
+ .text.svcWaitSynchronization
+                0x00101b98        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101b98                svcWaitSynchronization
+ .text.svcWaitSynchronizationN
+                0x00101ba0       0x28 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101ba0                svcWaitSynchronizationN
+ .text.svcDuplicateHandle
+                0x00101bc8       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101bc8                svcDuplicateHandle
+ .text.svcConnectToPort
+                0x00101bdc       0x14 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101bdc                svcConnectToPort
+ .text.svcSendSyncRequest
+                0x00101bf0        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101bf0                svcSendSyncRequest
+ .text.svcBreak
+                0x00101bf8        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101bf8                svcBreak
+ .text.svcAcceptSession
+                0x00101c00       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101c00                svcAcceptSession
+ .text.svcReplyAndReceive
+                0x00101c18       0x18 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101c18                svcReplyAndReceive
+ .text.svcBindInterrupt
+                0x00101c30        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101c30                svcBindInterrupt
+ .text.svcUnbindInterrupt
+                0x00101c38        0x8 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+                0x00101c38                svcUnbindInterrupt
+ .text.strnlen  0x00101c40       0x48 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strnlen.o)
+                0x00101c40                strnlen
+ .text.memcpy   0x00101c88      0x11c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memcpy-stub.o)
+                0x00101c88                memcpy
+ .text.memset   0x00101da4       0xf4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memset.o)
+                0x00101da4                memset
+ .text.strncpy  0x00101e98       0xc4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncpy.o)
+                0x00101e98                strncpy
+ *(.glue_7)
+ .glue_7        0x00101f5c        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00101f5c        0x0 linker stubs
+ *(.stub)
+ *(.gnu.warning)
+ *(.gnu.linkonce.t*)
+                0x00101f5c                        . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x00101f5c        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crti.o
+                0x00101f5c                _fini
+ .fini          0x00101f68        0xc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtn.o
+                0x00101f74                        . = ALIGN (0x4)
+
+.vfp11_veneer   0x00101f74        0x0
+ .vfp11_veneer  0x00101f74        0x0 linker stubs
+
+.v4_bx          0x00101f74        0x0
+ .v4_bx         0x00101f74        0x0 linker stubs
+
+.iplt           0x00101f74        0x0
+ .iplt          0x00101f74        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
+                0x00102000                        . = ALIGN (0x1000)
+
+.rodata         0x00102000       0x88
+ *(.rodata)
+ *(.roda)
+ *(.rodata.*)
+ .rodata.nbStaticBuffersByService
+                0x00102000       0x28 main.o
+                0x00102000                nbStaticBuffersByService
+ .rodata.str1.4
+                0x00102028       0x59 main.o
+                                 0x52 (size before relaxing)
+ .rodata.srvInit.str1.4
+                0x00102081        0x5 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ *all.rodata*(*)
+ *(.gnu.linkonce.r*)
+                0x00102088                        . = ALIGN (0x4)
+ *fill*         0x00102081        0x3 
+                0x00102084                        __tdata_align = .
+                0x00102084        0x4 LONG 0x4 ALIGNOF (.tdata)
+                0x00102088                        . = ALIGN (0x4)
+
+.eh_frame       0x00102088        0x0
+ .eh_frame      0x00102088        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+
+.rel.dyn        0x00102088        0x0
+ .rel.iplt      0x00102088        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00102088                        __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00102088                        __exidx_end = .
+                0x00103000                        . = ALIGN (0x1000)
+
+.data           0x00103000       0x28
+ *(.data)
+ *(.data.*)
+ .data.serviceNames
+                0x00103000       0x28 main.o
+                0x00103000                serviceNames
+ *(.gnu.linkonce.d*)
+                0x00103028                        . = ALIGN (0x4)
+
+.igot.plt       0x00103028        0x0
+ .igot.plt      0x00103028        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
+
+.tdata          0x00103028        0x0
+                0x00103028                        __tdata_lma = .
+ *(.tdata)
+ *(.tdata.*)
+ *(.gnu.linkonce.td.*)
+                0x00103028                        . = ALIGN (0x4)
+                0x00103028                        __tdata_lma_end = .
+
+.tbss           0x00103028        0x0
+ *(.tbss)
+ *(.tbss.*)
+ *(.gnu.linkonce.tb.*)
+ *(.tcommon)
+                0x00103028                        . = ALIGN (0x4)
+
+.preinit_array  0x00103028        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00103028        0x4
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x00103028        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0010302c        0x4
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(.fini_array)
+ .fini_array    0x0010302c        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ *(SORT_BY_NAME(.fini_array.*))
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x00103030                        __bss_start__ = .
+
+.bss            0x00103030    0x19b1c
+ *(.dynbss)
+ *(.bss)
+ *(.bss.*)
+ .bss.completed.1
+                0x00103030        0x1 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ *fill*         0x00103031        0x3 
+ .bss.object.0  0x00103034       0x18 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ .bss.PXISRV11HandlerThread
+                0x0010304c       0x10 main.o
+ .bss.senderThread
+                0x0010305c       0x10 main.o
+ .bss.receiverThread
+                0x0010306c       0x10 main.o
+ *fill*         0x0010307c        0x4 
+ .bss.PXISRV11HandlerStack
+                0x00103080     0x1000 main.o
+ .bss.senderStack
+                0x00104080     0x1000 main.o
+ .bss.receiverStack
+                0x00105080     0x1000 main.o
+ *fill*         0x00106080      0xf80 
+ .bss.staticBuffers
+                0x00107000    0x15000 main.o
+                0x00107000                staticBuffers
+ .bss.sessionManager
+                0x0011c000      0xb24 main.o
+                0x0011c000                sessionManager
+ .bss.shouldTerminate
+                0x0011cb24        0x1 main.o
+                0x0011cb24                shouldTerminate
+ *fill*         0x0011cb25        0x3 
+ .bss.terminationRequestedEvent
+                0x0011cb28        0x4 main.o
+                0x0011cb28                terminationRequestedEvent
+ .bss.PXITransferMutex
+                0x0011cb2c        0x4 main.o
+                0x0011cb2c                PXITransferMutex
+ .bss.PXISyncInterrupt
+                0x0011cb30        0x4 main.o
+                0x0011cb30                PXISyncInterrupt
+ .bss.srvRefCount
+                0x0011cb34        0x4 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .bss.srvHandle
+                0x0011cb38        0x4 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .bss.arbiter   0x0011cb3c        0x4 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .bss.srvPmHandle
+                0x0011cb40        0x4 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .bss.__system_argv
+                0x0011cb44        0x4 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+                0x0011cb44                __system_argv
+ .bss.__system_argc
+                0x0011cb48        0x4 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+                0x0011cb48                __system_argc
+ *(.gnu.linkonce.b*)
+ *(COMMON)
+                0x0011cb4c                        . = (0x8 + ABSOLUTE (ALIGN (ABSOLUTE ((. - 0x8)), MAX (ALIGNOF (.tdata), ALIGNOF (.tbss)))))
+                0x0011cb4c                        __tls_start = .
+                0x0011cb4c                        . = (. + SIZEOF (.tdata))
+                0x0011cb4c                        . = ALIGN (ALIGNOF (.tbss))
+                0x0011cb4c                        . = (. + SIZEOF (.tbss))
+                0x0011cb4c                        __tls_end = .
+                0x0011cb4c                        __bss_end__ = .
+                0x0011cb4c                        __end__ = ABSOLUTE (.)
+
+/DISCARD/
+ *(.group .comment .note)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x690
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 MyThread.o
+ .debug_aranges
+                0x00000038       0x78 PXI.o
+ .debug_aranges
+                0x000000b0       0x38 main.o
+ .debug_aranges
+                0x000000e8       0x20 receiver.o
+ .debug_aranges
+                0x00000108       0x38 sender.o
+ .debug_aranges
+                0x00000140       0xc0 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .debug_aranges
+                0x00000200       0xf0 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .debug_aranges
+                0x000002f0       0x50 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .debug_aranges
+                0x00000340       0x20 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .debug_aranges
+                0x00000360      0x330 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x865e
+ *(.debug_info)
+ .debug_info    0x00000000      0x3ca MyThread.o
+ .debug_info    0x000003ca      0x4c6 PXI.o
+ .debug_info    0x00000890     0x14ea main.o
+ .debug_info    0x00001d7a      0x768 receiver.o
+ .debug_info    0x000024e2     0x11e3 sender.o
+ .debug_info    0x000036c5     0x1af2 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .debug_info    0x000051b7     0x2956 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .debug_info    0x00007b0d      0x872 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .debug_info    0x0000837f      0x2bc C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .debug_info    0x0000863b       0x23 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+
+.debug_abbrev   0x00000000     0x1cfe
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1bf MyThread.o
+ .debug_abbrev  0x000001bf      0x1c7 PXI.o
+ .debug_abbrev  0x00000386      0x3f2 main.o
+ .debug_abbrev  0x00000778      0x27f receiver.o
+ .debug_abbrev  0x000009f7      0x466 sender.o
+ .debug_abbrev  0x00000e5d      0x514 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .debug_abbrev  0x00001371      0x4f2 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .debug_abbrev  0x00001863      0x2f1 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .debug_abbrev  0x00001b54      0x198 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .debug_abbrev  0x00001cec       0x12 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+
+.debug_line     0x00000000     0x56eb
+ *(.debug_line)
+ .debug_line    0x00000000      0x1f5 MyThread.o
+ .debug_line    0x000001f5      0x427 PXI.o
+ .debug_line    0x0000061c      0x99f main.o
+ .debug_line    0x00000fbb      0x382 receiver.o
+ .debug_line    0x0000133d      0xbef sender.o
+ .debug_line    0x00001f2c      0xfa8 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .debug_line    0x00002ed4     0x1622 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .debug_line    0x000044f6      0x687 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .debug_line    0x00004b7d      0x3df C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .debug_line    0x00004f5c      0x78f C:/devkitPro/libctru/lib\libctru.a(svc.o)
+
+.debug_frame    0x00000000      0xf50
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x78 MyThread.o
+ .debug_frame   0x00000078       0xf4 PXI.o
+ .debug_frame   0x0000016c       0xb4 main.o
+ .debug_frame   0x00000220       0x50 receiver.o
+ .debug_frame   0x00000270       0xb4 sender.o
+ .debug_frame   0x00000324      0x254 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .debug_frame   0x00000578      0x2b4 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .debug_frame   0x0000082c       0xb0 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .debug_frame   0x000008dc       0x34 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .debug_frame   0x00000910      0x640 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+
+.debug_str      0x00000000     0x1e7f
+ *(.debug_str)
+ .debug_str     0x00000000     0x1e7f MyThread.o
+                                0x312 (size before relaxing)
+ .debug_str     0x00001e7f      0x376 PXI.o
+ .debug_str     0x00001e7f      0xb89 main.o
+ .debug_str     0x00001e7f      0x5b7 receiver.o
+ .debug_str     0x00001e7f      0x943 sender.o
+ .debug_str     0x00001e7f      0xaab C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .debug_str     0x00001e7f      0x957 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .debug_str     0x00001e7f      0x554 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .debug_str     0x00001e7f      0x2ca C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .debug_str     0x00001e7f       0x97 C:/devkitPro/libctru/lib\libctru.a(svc.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crti.o
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+LOAD MyThread.o
+LOAD PXI.o
+LOAD main.o
+LOAD receiver.o
+LOAD sender.o
+LOAD C:/devkitPro/libctru/lib\libctru.a
+START GROUP
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu\libgcc.a
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libc.a
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libsysbase.a
+END GROUP
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtend.o
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtn.o
+OUTPUT(C:/Users/leo/Downloads/Luma3DS-French/sysmodules/pxi/pxi.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x1e C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
+ .ARM.attributes
+                0x0000001e       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crti.o
+ .ARM.attributes
+                0x0000003a       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtbegin.o
+ .ARM.attributes
+                0x0000006a       0x30 MyThread.o
+ .ARM.attributes
+                0x0000009a       0x30 PXI.o
+ .ARM.attributes
+                0x000000ca       0x30 main.o
+ .ARM.attributes
+                0x000000fa       0x30 receiver.o
+ .ARM.attributes
+                0x0000012a       0x30 sender.o
+ .ARM.attributes
+                0x0000015a       0x30 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .ARM.attributes
+                0x0000018a       0x30 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .ARM.attributes
+                0x000001ba       0x30 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .ARM.attributes
+                0x000001ea       0x30 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .ARM.attributes
+                0x0000021a       0x1a C:/devkitPro/libctru/lib\libctru.a(svc.o)
+ .ARM.attributes
+                0x00000234       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strnlen.o)
+ .ARM.attributes
+                0x00000264       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000294       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-memset.o)
+ .ARM.attributes
+                0x000002c4       0x30 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/armv6k/fpu\libg.a(libc_a-strncpy.o)
+ .ARM.attributes
+                0x000002f4       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/armv6k/fpu/crtn.o
+
+.debug_loclists
+                0x00000000     0x2bc5
+ .debug_loclists
+                0x00000000      0x116 MyThread.o
+ .debug_loclists
+                0x00000116      0x1ca PXI.o
+ .debug_loclists
+                0x000002e0      0x2da main.o
+ .debug_loclists
+                0x000005ba       0xf4 receiver.o
+ .debug_loclists
+                0x000006ae      0x4d5 sender.o
+ .debug_loclists
+                0x00000b83      0x6a3 C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .debug_loclists
+                0x00001226     0x169f C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .debug_loclists
+                0x000028c5      0x24b C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .debug_loclists
+                0x00002b10       0xb5 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+
+.debug_rnglists
+                0x00000000      0xd6c
+ .debug_rnglists
+                0x00000000       0x25 MyThread.o
+ .debug_rnglists
+                0x00000025       0x63 PXI.o
+ .debug_rnglists
+                0x00000088      0x1db main.o
+ .debug_rnglists
+                0x00000263       0x83 receiver.o
+ .debug_rnglists
+                0x000002e6      0x1dd sender.o
+ .debug_rnglists
+                0x000004c3      0x17c C:/devkitPro/libctru/lib\libctru.a(srv.o)
+ .debug_rnglists
+                0x0000063f      0x3c5 C:/devkitPro/libctru/lib\libctru.a(synchronization.o)
+ .debug_rnglists
+                0x00000a04       0xe9 C:/devkitPro/libctru/lib\libctru.a(srvpm.o)
+ .debug_rnglists
+                0x00000aed       0x20 C:/devkitPro/libctru/lib\libctru.a(initArgv.o)
+ .debug_rnglists
+                0x00000b0d      0x25f C:/devkitPro/libctru/lib\libctru.a(svc.o)
+
+.debug_line_str
+                0x00000000       0x8b
+ .debug_line_str
+                0x00000000       0x8b C:/devkitPro/libctru/lib\libctru.a(svc.o)
