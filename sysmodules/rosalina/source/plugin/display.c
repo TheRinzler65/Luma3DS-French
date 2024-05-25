@@ -34,7 +34,7 @@ u32    DispErrMessage(const char *title, const char *message, const Result error
 {
     char buf[100];
 
-    sprintf(buf, "Code erreur: 0x%08lX", error);
+    sprintf(buf, "Error code: 0x%08lX", error);
     menuEnter();
 
     Draw_Lock();
