@@ -63,7 +63,7 @@ void SysConfigMenu_ToggleLEDs(void)
         Draw_DrawString(10, 30, COLOR_WHITE, "Appuyer sur A pour basculer,\nAppuyer sur B pour revenir en arri\x8A""re.");
         Draw_DrawString(10, 60, COLOR_RED, "ATTENTION:");
         Draw_DrawString(10, 80, COLOR_WHITE, "  * Le passage en mode veille r\x82""initialise\nl'\x82""tat de la DEL !");
-        Draw_DrawString(10, 100, COLOR_WHITE, "  * Il n'est pas possible de faire basculer les\nLED lorsque la batterie est faible !");
+        Draw_DrawString(10, 110, COLOR_WHITE, "  * Il n'est pas possible de faire basculer les\nLED lorsque la batterie est faible !");
 
         Draw_FlushFramebuffer();
         Draw_Unlock();
