@@ -818,120 +818,128 @@ void writeConfig(bool isConfigOptions)
         writeConfigMcu();
 
     if(updateIni && !writeLumaIniConfig())
-        error("Error writing the configuration file");
+        error("Erreur d'\x82""criture du fichier de configuration");
 }
 
 void configMenu(bool oldPinStatus, u32 oldPinMode)
 {
-    static const char *multiOptionsText[]  = { "Default EmuNAND: 1( ) 2( ) 3( ) 4( )",
-                                               "Screen brightness: 4( ) 3( ) 2( ) 1( )",
-                                               "Splash: Off( ) Before( ) After( ) payloads",
-                                               "PIN lock: Off( ) 4( ) 6( ) 8( ) digits",
-                                               "New 3DS CPU: Off( ) Clock( ) L2( ) Clock+L2( )",
-                                               "Hbmenu autoboot: Off( ) 3DS( ) DSi( )",
+    static const char *multiOptionsText[]  = { "D\x82""faut EmuNAND: 1( ) 2( ) 3( ) 4( )",
+                                               "Luminosit\x82"" de l'\x82""cran: 4( ) 3( ) 2( ) 1( )",
+                                               "Splash: Off( ) Avant( ) Apr\x8A""s( ) payloads",
+                                               "Code PIN: Off( ) 4( ) 6( ) 8( ) chiffres",
+                                               "CPU New 3DS: Off( ) Clock( ) L2( ) Clock+L2( )",
+                                               "Auto d\x82""marrage du Homebrew: Off( ) 3DS( ) DSi( )",
                                              };
 
-    static const char *singleOptionsText[] = { "( ) Autoboot EmuNAND",
-                                               "( ) Enable loading external FIRMs and modules",
-                                               "( ) Enable game patching",
-                                               "( ) Redirect app. syscore threads to core2",
-                                               "( ) Show NAND or user string in System Settings",
-                                               "( ) Show GBA boot screen in patched AGB_FIRM",
+    static const char *singleOptionsText[] = { "( ) Auto d\x82marrage EmuNAND",
+                                               "( ) Activer chargement FIRM et modules externes",
+                                               "( ) Activer le patch des jeux",
+                                               "( ) Redirection processus appli. syscore \x86"" core2",
+                                               "( ) Afficher NAND ou texte personna. dans Conf.",
+                                               "( ) Afficher d\x82""marrage GBA avec patch AGB_FIRM",
 
                                                // Should always be the last 2 entries
-                                               "\nBoot chainloader",
-                                               "Save and exit"
+                                               "\nD\x82marrage du chainloader",
+                                               "Enregistrer et quitter"
                                              };
 
-    static const char *optionsDescription[]  = { "Select the default EmuNAND.\n\n"
-                                                 "It will be booted when no directional\n"
-                                                 "pad buttons are pressed (Up/Right/Down\n"
-                                                 "/Left equal EmuNANDs 1/2/3/4).",
+    static const char *optionsDescription[]  = { "S\x82lectionnez l'EmuNAND par d\x82""faut.\n\n"
+                                                 "Il sera d\x82""marr\x82"" quand il n'y aura pas de signal directionnel.\n"
+                                                 "Touches (haut/droit/bas) sont activ\x82""es.\n"
+                                                 "/Gauche egale EmuNANDs 1/2/3/4).",
 
-                                                 "Select the screen brightness.",
+                                                 "S\x82""lectionne la luminosit\x82"" de l'\x82""cran.",
 
-                                                 "Enable splash screen support.\n\n"
-                                                 "\t* 'Before payloads' displays it\n"
-                                                 "before booting payloads\n"
-                                                 "(intended for splashes that display\n"
-                                                 "button hints).\n\n"
-                                                 "\t* 'After payloads' displays it\n"
-                                                 "afterwards.\n\n"
-                                                 "Edit the duration in config.ini (3s\n"
-                                                 "default).",
+                                                 "Activer la prise en charge de l'\x82""cran\nde d\x82""marrage.\n\n"
+                                                 "\t* L'option 'Avant les playloads'\ns'affiche avant le demarrage\n"
+                                                 "des playloads\n"
+                                                 "(destin\x82"" aux \x82""crans de d\x82""marrage qui\naffichent des\n"
+                                                 "indications sur les boutons).\n\n"
+                                                 "\t* L'option 'Apr\x8A""s les playloads'\ns'affiche par la suite\n\n"
+                                                 "Modifier la dur\x82""e dans config.ini (3s\n"
+                                                 "par d\x82""faut).",
 
-                                                 "Activate a PIN lock.\n\n"
-                                                 "The PIN will be asked each time\n"
-                                                 "Luma3DS boots.\n\n"
-                                                 "4, 6 or 8 digits can be selected.\n\n"
-                                                 "The ABXY buttons and the directional\n"
-                                                 "pad buttons can be used as keys.\n\n"
-                                                 "A message can also be displayed\n"
-                                                 "(refer to the wiki for instructions).",
+                                                 "Activer un verrouillage par code PIN.\n\n"
+                                                 "Le code PIN est demand\x82""  chaque fois\npour d\x82""marrer Luma3DS\n\n"
+                                                 "4, 6 ou 8 chiffres peuvent \x88""tre\ns\x82""lectionnes.\n\n"
+                                                 "Les boutons ABXY et les touches\ndirectionnelles peuvent \x88""tre utilis\x82""s\n"
+                                                 "comme touches.\n\n"
+                                                 "Un message peut aussi \x88""tre affich\x82""\n"
+                                                 "(Se r\x82""f\x82""rer au wiki pour plus\n" 
+                                                 "d'instructions).",
 
-                                                 "Select the New 3DS CPU mode.\n\n"
-                                                 "This won't apply to\n"
-                                                 "New 3DS exclusive/enhanced games.\n\n"
-                                                 "'Clock+L2' can cause issues with some\n"
-                                                 "games.",
+                                                 "S\x82""lectionnez le mode CPU New 3DS.\n\n"
+                                                 "Cela ne s'applique pas aux jeux \n"
+                                                 "exclusifs/am\x82""liores de la New 3DS.\n\n"
+                                                 "'Clock+L2' peut causer des probl\x8A""mes\n"
+                                                 "avec certains jeux.",
 
-                                                 "Enable autobooting into homebrew menu,\n"
-                                                 "either into 3DS or DSi mode.\n\n"
-                                                 "Autobooting into a gamecard title is\n"
-                                                 "not supported.\n\n"
-                                                 "Refer to the \"autoboot\" section in the\n"
-                                                 "configuration file to configure\n"
-                                                 "this feature.",
+                                                 "Activer le d\x82""marrage automatique dans\n"
+                                                 "le menu homebrew, en mode 3DS ou DSi.\n\n"
+                                                 "Le d\x82""marrage automatique dans un titre\n"
+                                                 "de cartouche n'est pas pris en charge.\n\n"
+                                                 "Reportez-vous \x85"" la section \'autoboot\'\ndans le manuel de l'utilisateur\n"
+                                                 "du fichier de configuration afin de\n"
+                                                 "mettre en place cette fonctionnalit\x82"".",
 
-                                                 "If enabled, an EmuNAND\n"
-                                                 "will be launched on boot.\n\n"
-                                                 "Otherwise, SysNAND will.\n\n"
-                                                 "Hold L on boot to switch NAND.\n\n"
-                                                 "To use a different EmuNAND from the\n"
-                                                 "default, hold a directional pad button\n"
-                                                 "(Up/Right/Down/Left equal EmuNANDs\n"
+                                                 "Si cette option est activ\x82""e, l'EmuNAND\n"
+                                                 "sera lanc\x82"" au d\x82""marrage.\n\n"
+                                                 "Sinon, ce sera la SysNAND\n\n"
+                                                 "Maintenir la touche L au d\x82""marrage pour changer de NAND.\n\n"
+                                                 "Pour utiliser une EmuNAND diff\x82""rente de celle par d\x82""faut\n"
+                                                 "enfonc\x82""e une touche du pave directionnel\n"
+                                                 "(Haut/Droite/Bas/Gauche egal EmuNANDs\n"
                                                  "1/2/3/4).",
 
-                                                 "Enable loading external FIRMs and\n"
-                                                 "system modules.\n\n"
-                                                 "This isn't needed in most cases.\n\n"
-                                                 "Refer to the wiki for instructions.",
+                                                 "Active le chargement des FIRMs\n"
+                                                 "externes et des modules du syst\x8A""me.\n\n"
+                                                 "Cela n'est pas n\x82""cessaire dans la\n"
+                                                 "plupart des cas.\n\n"
+                                                 "(Se r\x82""f\x82""rer au wiki pour plus\n" 
+                                                 "d'instructions).",
 
-                                                 "Enable overriding the region and\n"
-                                                 "language configuration and the usage\n"
-                                                 "of patched code binaries, exHeaders,\n"
-                                                 "IPS code patches and LayeredFS\n"
-                                                 "for specific games.\n\n"
-                                                 "Also makes certain DLCs for out-of-\n"
-                                                 "region games work.\n\n"
-                                                 "Refer to the wiki for instructions.",
+                                                 "Permettre le remplacement de la r\x82""gion\n"
+                                                 "de la configuration de la langue et\n"
+                                                 "de l'utilisation du binaires de code\n" 
+                                                 "patchs, exHeaders, correctifs du code\n"
+                                                 "IPS et le syst\x8A""me LayeredFS pour\n"
+                                                 "certains jeux.\n\n"
+                                                 "Permet \x82""galement de faire fonctionner\n"
+                                                 "certains DLC pour les jeux hors r\x82""gion\n\n"
+                                                 "(Se r\x82""f\x82""rer au wiki pour plus\n" 
+                                                 "d'instructions).",
 
-                                                 "Redirect app. threads that would spawn\n"
-                                                 "on core1, to core2 (which is an extra\n"
-                                                 "CPU core for applications that usually\n"
-                                                 "remains unused).\n\n"
-                                                 "This improves the performance of very\n"
-                                                 "demanding games (like Pok\x82mon US/UM)\n" // CP437
-                                                 "by about 10%. Can break some games\n"
-                                                 "and other applications.\n",
+                                                 "Rediriger les fils d'app. qui se\n" 
+                                                 "reproduiraient sur le core1, vers le\n"
+                                                 "core2 (coeur en +) coeur du CPU pour.\n"
+                                                 "les applications qui reste inutilis\x82"").\n\n"
+                                                 "Ca permet d'am\x82""liorer les performances\n"
+                                                 "des jeux exigeants (tels que\n" // CP437
+                                                 "Pok\x82mon US/UL) d'environ 10 %.\n\n"
+                                                 "Peut faire bug certains jeux\n"
+                                                 "et d'autres applications.\n",
 
-                                                 "Enable showing the current NAND:\n\n"
+                                                 "Activation de l'affichage du NAND\n"
+                                                 "actuel :\n\n"
                                                  "\t* Sys  = SysNAND\n"
                                                  "\t* Emu  = EmuNAND 1\n"
                                                  "\t* EmuX = EmuNAND X\n\n"
-                                                 "or a user-defined custom string in\n"
-                                                 "System Settings.\n\n"
-                                                 "Refer to the wiki for instructions.",
+                                                 "ou une chaine personnalis\x82""e d\x82""finie\n" 
+                                                 "par l'utilisateur dans les Param\x8A""tres.\n\n"
+                                                 "(Se r\x82""f\x82""rer au wiki pour plus\n" 
+                                                 "d'instructions).",
 
-                                                 "Enable showing the GBA boot screen\n"
-                                                 "when booting GBA games.",
+                                                 "Affiche l'\x82""cran de d\x82""marrage GBA\n" 
+                                                 "lorsque les jeux GBA sont lanc\x82""s.",
 
                                                 // Should always be the last 2 entries
-                                                "Boot to the Luma3DS chainloader menu.",
+                                                "D\x82""marrer le menu du chainloader sur\nLuma3DS",
 
-                                                 "Save the changes and exit. To discard\n"
-                                                 "any changes press the POWER button.\n"
-                                                 "Use START as a shortcut to this entry."
+                                                 "Enregistrez les modifications et\nquittez.\n\n"
+                                                 "Pour rejeter toute modification,\n" 
+                                                 "appuyez sur la touche POWER.\n\n"
+                                                 "Utilisez START comme raccourci vers\n" 
+                                                 "cette entr\x82""e."
                                                };
 
     FirmwareSource nandType = FIRMWARE_SYSNAND;
@@ -1003,8 +1011,11 @@ void configMenu(bool oldPinStatus, u32 oldPinMode)
                                        "FIRM1" };
 
     drawString(true, 10, 10, COLOR_TITLE, CONFIG_TITLE);
-    drawString(true, 10, 10 + SPACING_Y, COLOR_TITLE, "Use the DPAD and A to change settings");
-    drawFormattedString(false, 10, SCREEN_HEIGHT - 2 * SPACING_Y, COLOR_YELLOW, "Booted from %s via %s", isSdMode ? "SD" : "CTRNAND", bootTypes[(u32)bootType]);
+    drawString(true, 10, 10 + SPACING_Y, COLOR_TITLE, "Utilise le DPAD + A pour modifier les param\x8A""tres");
+    drawFormattedString(false, 10, SCREEN_HEIGHT - 3 * SPACING_Y, COLOR_YELLOW, "D\x82""marrer \x85"" partir de la %s via %s", isSdMode ? "SD" : "CTRNAND", bootTypes[(u32)bootType]);
+    drawString(false, 10, SCREEN_HEIGHT - 2 * SPACING_Y, COLOR_YELLOW, "Traduit en Fran\x87""ais par Rinzler");
+	drawString(false, 10, SCREEN_HEIGHT - 1 * SPACING_Y, COLOR_YELLOW, "https://github.com/TheRinzler65/");
+
 
     //Character to display a selected option
     char selected = 'x';
@@ -1183,7 +1194,7 @@ void configMenu(bool oldPinStatus, u32 oldPinMode)
     else if(oldPinStatus)
     {
         if(!fileDelete(PIN_FILE))
-            error("Unable to delete PIN file");
+            error("Impossible d'effacer le fichier PIN");
     }
 
     while(HID_PAD & PIN_BUTTONS);

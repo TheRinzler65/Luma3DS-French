@@ -44,23 +44,23 @@
 #include "luma_config.h"
 
 Menu rosalinaMenu = {
-    "Rosalina menu",
+    "Menu Rosalina",
     {
-        { "Take screenshot", METHOD, .method = &RosalinaMenu_TakeScreenshot },
-        { "Change screen brightness", METHOD, .method = &RosalinaMenu_ChangeScreenBrightness },
-        { "Cheats...", METHOD, .method = &RosalinaMenu_Cheats },
+        { "Faire une capture d'\x82""cran", METHOD, .method = &RosalinaMenu_TakeScreenshot },
+        { "Modifier la luminosit\x82"" de l'\x82""cran", METHOD, .method = &RosalinaMenu_ChangeScreenBrightness },
+        { "Triches...", METHOD, .method = &RosalinaMenu_Cheats },
         { "", METHOD, .method = PluginLoader__MenuCallback},
-        { "Process list", METHOD, .method = &RosalinaMenu_ProcessList },
-        { "Debugger options...", MENU, .menu = &debuggerMenu },
-        { "System configuration...", MENU, .menu = &sysconfigMenu },
-        { "Screen filters...", MENU, .menu = &screenFiltersMenu },
-        { "New 3DS menu...", MENU, .menu = &N3DSMenu, .visibility = &menuCheckN3ds },
-        { "Miscellaneous options...", MENU, .menu = &miscellaneousMenu },
-        { "Save settings", METHOD, .method = &RosalinaMenu_SaveSettings },
-        { "Power off", METHOD, .method = &RosalinaMenu_PowerOff },
-        { "Reboot", METHOD, .method = &RosalinaMenu_Reboot },
-        { "Credits", METHOD, .method = &RosalinaMenu_ShowCredits },
-        { "Debug info", METHOD, .method = &RosalinaMenu_ShowDebugInfo, .visibility = &rosalinaMenuShouldShowDebugInfo },
+        { "Liste des processus", METHOD, .method = &RosalinaMenu_ProcessList },
+        { "Options du d\x82""bogueur...", MENU, .menu = &debuggerMenu },
+        { "Configuration du syst\x8A""me...", MENU, .menu = &sysconfigMenu },
+        { "Filtres d'\x82""cran...", MENU, .menu = &screenFiltersMenu },
+        { "Menu New 3DS...", MENU, .menu = &N3DSMenu, .visibility = &menuCheckN3ds },
+        { "Options diverses...", MENU, .menu = &miscellaneousMenu },
+        { "Sauvegarder les param\x8A""tres", METHOD, .method = &RosalinaMenu_SaveSettings },
+        { "Eteindre", METHOD, .method = &RosalinaMenu_PowerOff },
+        { "Red\x82""marrer", METHOD, .method = &RosalinaMenu_Reboot },
+        { "Cr\x82""dits", METHOD, .method = &RosalinaMenu_ShowCredits },
+        { "Infos de d\x82""bogage", METHOD, .method = &RosalinaMenu_ShowDebugInfo, .visibility = &rosalinaMenuShouldShowDebugInfo },
         {},
     }
 };
@@ -85,11 +85,11 @@ void RosalinaMenu_SaveSettings(void)
     do
     {
         Draw_Lock();
-        Draw_DrawString(10, 10, COLOR_TITLE, "Save settings");
+        Draw_DrawString(10, 10, COLOR_TITLE, "Sauvegarder les param\x8A""tres");
         if(R_SUCCEEDED(res))
-            Draw_DrawString(10, 30, COLOR_WHITE, "Operation succeeded.");
+            Draw_DrawString(10, 30, COLOR_WHITE, "Op\x82""ration r\x82""ussi.");
         else
-            Draw_DrawFormattedString(10, 30, COLOR_WHITE, "Operation failed (0x%08lx).", res);
+            Draw_DrawFormattedString(10, 30, COLOR_WHITE, "Echec de l'op\x82""ration (0x%08lx).", res);
         Draw_FlushFramebuffer();
         Draw_Unlock();
     }
@@ -117,7 +117,7 @@ void RosalinaMenu_ShowDebugInfo(void)
     do
     {
         Draw_Lock();
-        Draw_DrawString(10, 10, COLOR_TITLE, "Rosalina -- Debug info");
+        Draw_DrawString(10, 10, COLOR_TITLE, "Rosalina -- Infos de d\x82""bogage");
 
         u32 posY = Draw_DrawString(10, 30, COLOR_WHITE, memoryMap);
         posY = Draw_DrawFormattedString(10, posY, COLOR_WHITE, "Kernel ext PA: %08lx - %08lx\n\n", kextPa, kextPa + kextSize);
@@ -137,7 +137,7 @@ void RosalinaMenu_ShowDebugInfo(void)
         {
             u32 clkDiv = 1 << (1 + (speedInfo.sdClkCtrl & 0xFF));
             posY = Draw_DrawFormattedString(
-                10, posY, COLOR_WHITE, "SDMC speed: HS=%d %lukHz\n",
+                10, posY, COLOR_WHITE, "SDMC vitesse: HS=%d %lukHz\n",
                 (int)speedInfo.highSpeedModeEnabled, SYSCLOCK_SDMMC / (1000 * clkDiv)
             );
         }
@@ -171,22 +171,23 @@ void RosalinaMenu_ShowCredits(void)
     do
     {
         Draw_Lock();
-        Draw_DrawString(10, 10, COLOR_TITLE, "Rosalina -- Luma3DS credits");
+        Draw_DrawString(10, 10, COLOR_TITLE, "Rosalina -- Luma3DS Cr\x82""dits");
 
         u32 posY = Draw_DrawString(10, 30, COLOR_WHITE, "Luma3DS (c) 2016-2024 AuroraWright, TuxSH") + SPACING_Y;
 
-        posY = Draw_DrawString(10, posY + SPACING_Y, COLOR_WHITE, "3DSX loading code by fincs");
-        posY = Draw_DrawString(10, posY + SPACING_Y, COLOR_WHITE, "Networking code & basic GDB functionality by Stary");
-        posY = Draw_DrawString(10, posY + SPACING_Y, COLOR_WHITE, "InputRedirection by Stary (PoC by ShinyQuagsire)");
+        posY = Draw_DrawString(10, posY + SPACING_Y, COLOR_WHITE, "Code de chargement 3DSX par fincs");
+        posY = Draw_DrawString(10, posY + SPACING_Y, COLOR_WHITE, "Code de mise en r\x82""seau et fonctionnalit\x82""s\nde base de GDB par Stary");
+        posY = Draw_DrawString(10, posY + SPACING_Y, COLOR_WHITE, "InputRedirection par Stary (PoC par ShinyQuagsire)");
+        posY = Draw_DrawString(10, posY + SPACING_Y, COLOR_WHITE, "\nTraduction Fran\x87""aise faite par Rinzler");
 
         posY += 2 * SPACING_Y;
 
         Draw_DrawString(10, posY, COLOR_WHITE,
             (
-                "Special thanks to:\n"
+                "Remerciements \x85"":\n"
                 "  fincs, WinterMute, mtheall, piepie62,\n"
-                "  Luma3DS contributors, libctru contributors,\n"
-                "  other people"
+                "  Contributeurs Luma3DS, contributeurs libctru,\n"
+                "  et autres personnes"
             ));
 
         Draw_FlushFramebuffer();
@@ -205,8 +206,8 @@ void RosalinaMenu_Reboot(void)
     do
     {
         Draw_Lock();
-        Draw_DrawString(10, 10, COLOR_TITLE, "Reboot");
-        Draw_DrawString(10, 30, COLOR_WHITE, "Press A to reboot, press B to go back.");
+        Draw_DrawString(10, 10, COLOR_TITLE, "Red\x82""marrer");
+        Draw_DrawString(10, 30, COLOR_WHITE, "Appuyez sur A pour red\x82""marrer,\nAppuyez sur B pour revenir en arri\x8A""re.");
         Draw_FlushFramebuffer();
         Draw_Unlock();
 
@@ -239,23 +240,23 @@ void RosalinaMenu_ChangeScreenBrightness(void)
     do
     {
         Draw_Lock();
-        Draw_DrawString(10, 10, COLOR_TITLE, "Screen brightness");
+        Draw_DrawString(10, 10, COLOR_TITLE, "Luminosit\x82"" de l'\x82""cran");
         u32 posY = 30;
         posY = Draw_DrawFormattedString(
             10,
             posY,
             COLOR_WHITE,
-            "Current luminance: %lu (min. %lu, max. %lu)\n\n",
+            "Luminosit\x82"" actuelle: %lu (min. %lu, max. %lu)\n\n",
             luminance,
             minLum,
             maxLum
         );
-        posY = Draw_DrawString(10, posY, COLOR_WHITE, "Controls: Up/Down for +-1, Right/Left for +-10.\n");
-        posY = Draw_DrawString(10, posY, COLOR_WHITE, "Press A to start, B to exit.\n\n");
+        posY = Draw_DrawString(10, posY, COLOR_WHITE, "Commandes : Haut/Bas pour +-1,\n            Droite/Gauche pour +-10.\n");
+        posY = Draw_DrawString(10, posY, COLOR_WHITE, "Appuyez sur A pour d\x82""marrer,\nAppuyer sur B pour quitter.\n\n");
 
-        posY = Draw_DrawString(10, posY, COLOR_RED, "WARNING: \n");
-        posY = Draw_DrawString(10, posY, COLOR_WHITE, "  * value will be limited by the presets.\n");
-        posY = Draw_DrawString(10, posY, COLOR_WHITE, "  * bottom framebuffer will be restored until\nyou exit.");
+        posY = Draw_DrawString(10, posY, COLOR_RED, "AVERTISSEMENT: \n");
+        posY = Draw_DrawString(10, posY, COLOR_WHITE, "  * La valeur sera limit\x82""e par les pr\x82""r\x82""glages.\n");
+        posY = Draw_DrawString(10, posY, COLOR_WHITE, "  * La m\x82""moire tampon inf\x82""rieure sera restaur\x82""e\njusqu'\x85"" ce que vous quittiez l'application.");
         Draw_FlushFramebuffer();
         Draw_Unlock();
 
@@ -332,8 +333,8 @@ void RosalinaMenu_PowerOff(void) // Soft shutdown.
     do
     {
         Draw_Lock();
-        Draw_DrawString(10, 10, COLOR_TITLE, "Power off");
-        Draw_DrawString(10, 30, COLOR_WHITE, "Press A to power off, press B to go back.");
+        Draw_DrawString(10, 10, COLOR_TITLE, "Eteindre");
+        Draw_DrawString(10, 30, COLOR_WHITE, "Appuyez sur A pour \x82""teindre,\nAppuyez sur B pour revenir en arri\x8A""re.");
         Draw_FlushFramebuffer();
         Draw_Unlock();
 
@@ -472,17 +473,17 @@ end:
     do
     {
         Draw_Lock();
-        Draw_DrawString(10, 10, COLOR_TITLE, "Screenshot");
+        Draw_DrawString(10, 10, COLOR_TITLE, "Capture d'\x82""cran");
         if(R_FAILED(res))
-            Draw_DrawFormattedString(10, 30, COLOR_WHITE, "Operation failed (0x%08lx).", (u32)res);
+            Draw_DrawFormattedString(10, 30, COLOR_WHITE, "Echec de l'op\x82""ration (0x%08lx).", (u32)res);
         else
         {
             u32 t1 = (u32)(1000 * timeSpentConvertingScreenshot / SYSCLOCK_ARM11);
             u32 t2 = (u32)(1000 * timeSpentWritingScreenshot / SYSCLOCK_ARM11);
             u32 posY = 30;
-            posY = Draw_DrawString(10, posY, COLOR_WHITE, "Operation succeeded.\n\n");
-            posY = Draw_DrawFormattedString(10, posY, COLOR_WHITE, "Time spent converting:    %5lums\n", t1);
-            posY = Draw_DrawFormattedString(10, posY, COLOR_WHITE, "Time spent writing files: %5lums\n", t2);
+            posY = Draw_DrawString(10, posY, COLOR_WHITE, "Op\x82""ration r\x82""ussie.\n\n");
+            posY = Draw_DrawFormattedString(10, posY, COLOR_WHITE, "Temps passe \x85"" convertir:    %5lums\n", t1);
+            posY = Draw_DrawFormattedString(10, posY, COLOR_WHITE, "Temps passe \x85"" \x82""crire des fichiers: %5lums\n", t2);
         }
 
         Draw_FlushFramebuffer();
