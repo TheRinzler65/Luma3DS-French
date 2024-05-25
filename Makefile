@@ -46,3 +46,6 @@ hbmenu.zip:
 
 $(SUBFOLDERS):
 	@$(MAKE) -C $@ all
+
+$(SUBFOLDERS):
+	@$(MAKE) -C $@ all
