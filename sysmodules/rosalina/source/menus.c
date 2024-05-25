@@ -46,12 +46,12 @@
 Menu rosalinaMenu = {
     "Menu Rosalina",
     {
-        { "Faire une capture d'\n82""cran", METHOD, .method = &RosalinaMenu_TakeScreenshot },
+        { "Faire une capture d'\x82""cran", METHOD, .method = &RosalinaMenu_TakeScreenshot },
         { "Modifier la luminosit\x82"" de l'\x82""cran", METHOD, .method = &RosalinaMenu_ChangeScreenBrightness },
         { "Triches...", METHOD, .method = &RosalinaMenu_Cheats },
         { "", METHOD, .method = PluginLoader__MenuCallback},
         { "Liste des processus", METHOD, .method = &RosalinaMenu_ProcessList },
-        { "Options du d\n82""bogueur...", MENU, .menu = &debuggerMenu },
+        { "Options du d\x82""bogueur...", MENU, .menu = &debuggerMenu },
         { "Configuration du syst\x8A""me...", MENU, .menu = &sysconfigMenu },
         { "Filtres d'\x82""cran...", MENU, .menu = &screenFiltersMenu },
         { "Menu New 3DS...", MENU, .menu = &N3DSMenu, .visibility = &menuCheckN3ds },
