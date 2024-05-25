@@ -1,0 +1,102 @@
+         w __deregister_frame_info
+         w __register_frame_info
+00100000 A __start__
+00100000 T _start
+00100008 T __service_ptr
+0010000c T __apt_appid
+00100010 T __heap_size
+00100014 T __linear_heap_size
+00100018 T __system_arglist
+0010001c T __system_runflags
+00100020 t startup
+00100058 t ClearMem
+0010006c t ClrLoop
+00100094 T _init
+001000ac t __do_global_dtors_aux
+001000ec t frame_dummy
+00100118 00000004 t panic.constprop.0
+0010011c 0000007c T buildList
+00100198 000000a4 T moveNode
+0010023c 00000060 T allocateNode
+0010029c 00000004 t panic.isra.0
+001002a0 00000008 T __wrap_exit
+001002a8 000000a8 T initSystem
+00100350 000005c8 T main
+00100918 00000004 t panic.isra.0
+0010091c 000000ac t doPublishNotification
+001009c8 00000068 T EnableNotification
+00100a30 000000a0 T Subscribe
+00100ad0 00000090 T Unsubscribe
+00100b60 00000070 T ReceiveNotification
+00100bd0 000000a4 T PublishToSubscriber
+00100c74 000000ec T PublishAndGetSubscriber
+00100d60 000000b0 T PublishToProcess
+00100e10 0000009c T PublishToAll
+00100eac 00000004 t panic.isra.0
+00100eb0 00000038 T findProcessData
+00100ee8 00000050 T doRegisterProcess
+00100f38 000000b8 T RegisterProcess
+00100ff0 000000e4 T UnregisterProcess
+001010d4 00000004 t panic.isra.0
+001010d8 000000b0 t findServicePortByName
+00101188 000001fc t doRegisterServiceOrPort
+00101384 00000094 t UnregisterServiceOrPort.part.0
+00101418 00000034 T doRegisterService
+0010144c 00000038 T RegisterService
+00101484 00000038 T RegisterPort
+001014bc 00000060 T UnregisterService
+0010151c 00000060 T UnregisterPort
+0010157c 00000070 T IsServiceRegistered
+001015ec 000000dc T GetServiceHandle
+001016c8 000000bc T GetPort
+00101784 00000358 T srvHandleCommands
+00101adc 00000144 T srvPmHandleCommands
+00101c20 0000000c T __sync_init
+00101c2c T svcExitProcess
+00101c34 T svcCreateSemaphore
+00101c48 T svcReleaseSemaphore
+00101c5c T svcCreateAddressArbiter
+00101c70 T svcCloseHandle
+00101c78 T svcGetSystemInfo
+00101c90 T svcGetProcessId
+00101ca4 T svcCreatePort
+00101cc4 T svcCreateSessionToPort
+00101cd8 T svcAcceptSession
+00101cf0 T svcReplyAndReceive
+00101d08 000000e4 T strncmp
+00101dec 00000048 T strnlen
+00101e34 000000f4 T memset
+00101f28 000000c4 T strncpy
+00101fec T _fini
+00103010 R __tdata_align
+00103014 r __EH_FRAME_BEGIN__
+00103014 R __exidx_end
+00103014 R __exidx_start
+00104000 d __frame_dummy_init_array_entry
+00104000 D __tdata_lma
+00104000 D __tdata_lma_end
+00104004 d __do_global_dtors_aux_fini_array_entry
+00104008 D __bss_start__
+00104008 b completed.1
+0010400c b object.0
+00104024 00000110 b serviceAccessListStaticBuffer
+00104134 00002b00 b processDataPool
+00106c34 00000d10 b sessionDataPool
+00107944 00000008 B sessionDataWaitingPortReadyList
+0010794c 00000008 B sessionDataToWakeUpAfterServiceOrPortRegisterList
+00107954 00000008 B sessionDataWaitingForServiceOrPortRegisterList
+0010795c 00000008 B freeSessionDataList
+00107964 00000008 B sessionDataInUseList
+0010796c 00000004 B resumeGetServiceHandleOrPortRegisteredSemaphore
+00107970 00000004 B nbSection0Modules
+00107974 00000008 B freeProcessDataList
+0010797c 00000008 B processDataInUseList
+00107984 00000004 B nbServices
+00107988 00000c80 B servicesInfo
+00108608 00000004 b arbiter
+0010860c 00000004 B __system_argv
+00108610 00000004 B __system_argc
+00108614 B __bss_end__
+00108614 A __end__
+00108614 B __tls_end
+00108614 B __tls_start
