@@ -77,9 +77,9 @@ Result      MemoryBlock__IsReady(void)
 
     if (R_FAILED(res)) {
         if (isN3DS || (ctx->pluginMemoryStrategy == PLG_STRATEGY_MODE3))
-            PluginLoader__Error("Impossible de mapper la memoire du plugin.", res);
+            PluginLoader__Error("Cannot map plugin memory.", res);
         else
-            PluginLoader__Error("Un red\x82""marrage de la console est n\x82""cessaire\npour fermer les jeux \x85"" m\x82""moire \x82""tendue.\nAppuyez sur [B] pour red\x82""marrer.", res);
+            PluginLoader__Error("A console reboot is needed to\nclose extended memory games.\n\nPress [B] to reboot.", res);
         svcKernelSetState(7);
     }
     else
@@ -118,7 +118,7 @@ Result      MemoryBlock__Free(void)
     memblock->memblock = NULL;
 
     if (R_FAILED(res))
-        PluginLoader__Error("Impossible de lib\x82""rer le memblock", res);
+        PluginLoader__Error("Couldn't free memblock", res);
 
     return res;
 }
@@ -140,12 +140,12 @@ Result      MemoryBlock__ToSwapFile(void)
                     fsMakePath(PATH_ASCII, g_swapFileName), FS_OPEN_RWC);
 
     if (R_FAILED(res)) {
-        PluginLoader__Error("CRITIQUE: Echec de l'ouverture du fichier d'\x82""change.\n\nLa console va maintenant red\x82""marrer.", res);
+        PluginLoader__Error("CRITICAL: Failed to open swap file.\n\nConsole will now reboot.", res);
         svcKernelSetState(7);
     }
     
     if (!ctx->isSwapFunctionset) {
-        PluginLoader__Error("CRITIQUE: La fonction sauvegarde d'\x82""change\nn'est pas activ\x82""e.\n\nLa console va maintenant red\x82""marrer.", res);
+        PluginLoader__Error("CRITICAL: Swap save function\nis not set.\n\nConsole will now reboot.", res);
         svcKernelSetState(7);
     }
     ctx->swapLoadChecksum = saveSwapFunc(memblock->memblock, memblock->memblock + g_memBlockSize, g_loadSaveSwapArgs);
@@ -153,7 +153,7 @@ Result      MemoryBlock__ToSwapFile(void)
     res = IFile_Write(&file, &written, memblock->memblock, toWrite, FS_WRITE_FLUSH);
 
     if (R_FAILED(res) || written != toWrite) {
-        PluginLoader__Error("CRITIQUE: Impossible d'\x82""crire le fichier d'\x82""change sur SD.\n\nLa console va maintenant red\x82""marrer.", res);
+        PluginLoader__Error("CRITICAL: Couldn't write swap to SD.\n\nConsole will now reboot.", res);
         svcKernelSetState(7);
     }
 
@@ -174,14 +174,14 @@ Result      MemoryBlock__FromSwapFile(void)
                     fsMakePath(PATH_ASCII, g_swapFileName), FS_OPEN_READ);
 
     if (R_FAILED(res)) {
-        PluginLoader__Error("CRITIQUE: Echec de l'ouverture du fichier d'\x82""change.\n\nLa console va maintenant red\x82""marrer.", res);
+        PluginLoader__Error("CRITICAL: Failed to open swap file.\n\nConsole will now reboot.", res);
         svcKernelSetState(7);
     }
 
     res = IFile_Read(&file, &read, memblock->memblock, toRead);
 
     if (R_FAILED(res) || read != toRead) {
-        PluginLoader__Error("CRITIQUE: Impossible de lire le fichier d'\x82""change sur SD.\n\nLa console va maintenant red\x82""marrer.", res);
+        PluginLoader__Error("CRITICAL: Couldn't read swap from SD.\n\nConsole will now reboot.", res);
         svcKernelSetState(7);
     }
     
@@ -190,7 +190,7 @@ Result      MemoryBlock__FromSwapFile(void)
     PluginLoaderContext *ctx = &PluginLoaderCtx;
     if (checksum != ctx->swapLoadChecksum) {
         res = -1;
-        PluginLoader__Error("CRITIQUE: Le fichier d'\x82""change est corrompu.\n\nLa console va maintenant red\x82""marrer.", res);
+        PluginLoader__Error("CRITICAL: Swap file is corrupted.\n\nConsole will now reboot.", res);
         svcKernelSetState(7); 
     }
     
@@ -211,7 +211,7 @@ Result     MemoryBlock__MountInProcess(void)
     // Executable
     if (R_FAILED((res = svcMapProcessMemoryEx(target, 0x07000000, CUR_PROCESS_HANDLE, (u32)memblock->memblock, header->exeSize))))
     {
-        error->message = "Impossible de visualiser le bloc de m\x82""moire exe";
+        error->message = "Couldn't map exe memory block";
         error->code = res;
         return res;
     }
@@ -219,7 +219,7 @@ Result     MemoryBlock__MountInProcess(void)
     // Heap (to be used by the plugin)
     if (R_FAILED((res = svcMapProcessMemoryEx(target, header->heapVA, CUR_PROCESS_HANDLE, (u32)memblock->memblock + header->exeSize, header->heapSize))))
     {
-        error->message = "Impossible de visualiser le bloc de m\x82""moire du tas";
+        error->message = "Couldn't map heap memory block";
         error->code = res;
     }
 

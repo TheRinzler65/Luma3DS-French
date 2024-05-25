@@ -136,29 +136,29 @@ void main(int argc, char **argv, u32 magicWord)
     mcuFwVersion = ((u16)mcuFwVerHi << 16) | mcuFwVerLo;
 
     // Check if fw is older than factory. See https://www.3dbrew.org/wiki/MCU_Services#MCU_firmware_versions for a table
-    if (mcuFwVerHi < 1) error("Version FW du MCU non prise en charge %d.%d.", (int)mcuFwVerHi, (int)mcuFwVerLo);
+    if (mcuFwVerHi < 1) error("Unsupported MCU FW version %d.%d.", (int)mcuFwVerHi, (int)mcuFwVerLo);
 
     I2C_readRegBuf(I2C_DEV_MCU, 0x7F, mcuConsoleInfo, 9);
 
-    if(isInvalidLoader) error("Lance a l'aide d'un chargeur non pris en charge.");
+    if(isInvalidLoader) error("Launched using an unsupported loader.");
 
     installArm9Handlers();
 
     if(memcmp(launchedPath, u"sdmc", 8) == 0)
     {
-        if(!mountSdCardPartition(true)) error("Echec du montage de SD.");
+        if(!mountSdCardPartition(true)) error("Failed to mount SD.");
         isSdMode = true;
     }
     else if(memcmp(launchedPath, u"nand", 8) == 0)
     {
-        if(!remountCtrNandPartition(true)) error("Echec du montage de CTRNAND.");
+        if(!remountCtrNandPartition(true)) error("Failed to mount CTRNAND.");
         isSdMode = false;
     }
     else if(bootType == NTR || memcmp(launchedPath, u"firm", 8) == 0)
     {
         if(mountSdCardPartition(true)) isSdMode = true;
         else if(remountCtrNandPartition(true)) isSdMode = false;
-        else error("Echec du montage de SD et CTRNAND.");
+        else error("Failed to mount SD and CTRNAND.");
 
         if(bootType == NTR)
         {
@@ -176,7 +176,7 @@ void main(int argc, char **argv, u32 magicWord)
             mountPoint[i] = (char)launchedPath[i];
         mountPoint[i] = 0;
 
-        error("Lance a partir d'un emplacement non pris en charge : %s.", mountPoint);
+        error("Launched from an unsupported location: %s.", mountPoint);
     }
 
     detectAndProcessExceptionDumps();
@@ -352,7 +352,7 @@ boot:
     {
         locateEmuNand(&nandType, &emunandIndex, true);
         if(nandType == FIRMWARE_EMUNAND && (*(vu16 *)(SDMMC_BASE + REG_SDSTATUS0) & TMIO_STAT0_WRPROTECT) == 0) //Make sure the SD card isn't write protected
-            error("La carte SD est verrouillee, EmuNAND ne peut pas être utilise.\nVeuillez desactiver l'interrupteur de protection en ecriture.");
+            error("The SD card is locked, EmuNAND can not be used.\nPlease turn the write protection switch off.");
     }
 
     ctrNandLocation = nandType; // for CTRNAND partition
@@ -388,7 +388,7 @@ boot:
             break;
     }
 
-    if(res != 0) error("Echec de l'application du (des) correctif(s) %u FIRM.", res);
+    if(res != 0) error("Failed to apply %u FIRM patch(es).", res);
 
     unmountPartitions();
     if(bootType != FIRMLAUNCH) deinitScreens();

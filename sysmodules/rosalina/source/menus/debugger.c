@@ -37,11 +37,11 @@
 #include "pmdbgext.h"
 
 Menu debuggerMenu = {
-    "Menu d'options du d\x82""bogueur",
+    "Debugger options menu",
     {
-        { "Activer le d\x82""bogueur",                        METHOD, .method = &DebuggerMenu_EnableDebugger  },
-        { "D\x82""sactiver le d\x82""bogueur",                       METHOD, .method = &DebuggerMenu_DisableDebugger },
-        { "Forcer d\x82""bogage sur la prochaine app. lanc\x82""e", METHOD, .method = &DebuggerMenu_DebugNextApplicationByForce },
+        { "Enable debugger",                        METHOD, .method = &DebuggerMenu_EnableDebugger  },
+        { "Disable debugger",                       METHOD, .method = &DebuggerMenu_DisableDebugger },
+        { "Force-debug next application at launch", METHOD, .method = &DebuggerMenu_DebugNextApplicationByForce },
         {},
     }
 };
@@ -127,15 +127,15 @@ void DebuggerMenu_EnableDebugger(void)
     do
     {
         Draw_Lock();
-        Draw_DrawString(10, 10, COLOR_TITLE, "Menu d'options du d\x82""bogueur");
+        Draw_DrawString(10, 10, COLOR_TITLE, "Debugger options menu");
 
         if(alreadyEnabled)
-            Draw_DrawString(10, 30, COLOR_WHITE, "D\x82""j\x85"" activ\x82""!");
+            Draw_DrawString(10, 30, COLOR_WHITE, "Already enabled!");
         else if(!isSocURegistered)
-            Draw_DrawString(10, 30, COLOR_WHITE, "Impossible de d\x82""marrer le d\x82""bogueur avant que le\nsyst\x8A""me n'ait fini de se charger..");
+            Draw_DrawString(10, 30, COLOR_WHITE, "Can't start the debugger before the system has fi-\nnished loading.");
         else
         {
-            Draw_DrawString(10, 30, COLOR_WHITE, "D\x82""marrage du d\x82""bogueur...");
+            Draw_DrawString(10, 30, COLOR_WHITE, "Starting debugger...");
 
             if(!done)
             {
@@ -151,11 +151,11 @@ void DebuggerMenu_EnableDebugger(void)
                 }
 
                 if(res != 0)
-                    sprintf(buf, "D\x82""marrage du d\x82""bogueur... \x82""chec (0x%08lx).", (u32)res);
+                    sprintf(buf, "Starting debugger... failed (0x%08lx).", (u32)res);
                 done = true;
             }
             if(res == 0)
-                Draw_DrawString(10, 30, COLOR_WHITE, "D\x82""marrage du d\x82""bogueur... OK.");
+                Draw_DrawString(10, 30, COLOR_WHITE, "Starting debugger... OK.");
             else
                 Draw_DrawString(10, 30, COLOR_WHITE, buf);
         }
@@ -174,13 +174,13 @@ void DebuggerMenu_DisableDebugger(void)
     char buf[65];
 
     if(res != 0)
-        sprintf(buf, "Echec de la d\x82""sactivation du d\x82""bogueur (0x%08lx).", (u32)res);
+        sprintf(buf, "Failed to disable debugger (0x%08lx).", (u32)res);
 
     do
     {
         Draw_Lock();
-        Draw_DrawString(10, 10, COLOR_TITLE, "Menu d'options du d\x82""bogueur");
-        Draw_DrawString(10, 30, COLOR_WHITE, initialized ? (res == 0 ? "D\x82""bogueur d\x82""sactiv\x82"" avec succ\x8A""s." : buf) : "D\x82""bogueur non activ\x82"".");
+        Draw_DrawString(10, 10, COLOR_TITLE, "Debugger options menu");
+        Draw_DrawString(10, 30, COLOR_WHITE, initialized ? (res == 0 ? "Debugger disabled successfully." : buf) : "Debugger not enabled.");
         Draw_FlushFramebuffer();
         Draw_Unlock();
     }
@@ -198,7 +198,7 @@ void DebuggerMenu_DebugNextApplicationByForce(void)
         GDB_LockAllContexts(&gdbServer);
 
         if (nextApplicationGdbCtx != NULL)
-            strcpy(buf, "Operation d\x82""j\x85"" effectu\x82""e.");
+            strcpy(buf, "Operation already performed.");
         else
         {
             nextApplicationGdbCtx = GDB_SelectAvailableContext(&gdbServer, GDB_PORT_BASE + 3, GDB_PORT_BASE + 4);
@@ -208,27 +208,27 @@ void DebuggerMenu_DebugNextApplicationByForce(void)
                 nextApplicationGdbCtx->pid = 0xFFFFFFFF;
                 res = PMDBG_DebugNextApplicationByForce(true);
                 if(R_SUCCEEDED(res))
-                    sprintf(buf, "Op\x82""ration r\x82""ussie.\nUtiliser le port %d pour se connecter \x85""\nla prochaine application lanc\x82""e.", nextApplicationGdbCtx->localPort);
+                    sprintf(buf, "Operation succeeded.\nUse port %d to connect to the next launched\napplication.", nextApplicationGdbCtx->localPort);
                 else
                 {
                     nextApplicationGdbCtx->flags = 0;
                     nextApplicationGdbCtx->localPort = 0;
                     nextApplicationGdbCtx = NULL;
-                        sprintf(buf, "Echec de l'op\x82""ration (0x%08lx).", (u32)res);
+                        sprintf(buf, "Operation failed (0x%08lx).", (u32)res);
                 }
             }
             else
-                strcpy(buf, "Echec de l'allocation d'un slot.\nVeuillez d'abord d\x82""s\x82""lectionner un processus dans la liste des processus");
+                strcpy(buf, "Failed to allocate a slot.\nPlease unselect a process in the process list first");
         }
         GDB_UnlockAllContexts(&gdbServer);
     }
     else
-        strcpy(buf, "Le d\x82""bogueur n'est pas activ\x82"".");
+        strcpy(buf, "Debugger not enabled.");
 
     do
     {
         Draw_Lock();
-        Draw_DrawString(10, 10, COLOR_TITLE, "Menu d'options du d\x82""bogueur");
+        Draw_DrawString(10, 10, COLOR_TITLE, "Debugger options menu");
         Draw_DrawString(10, 30, COLOR_WHITE, buf);
         Draw_FlushFramebuffer();
         Draw_Unlock();
