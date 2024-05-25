@@ -85,10 +85,10 @@ void detectAndProcessExceptionDumps(void)
 
     initScreens();
 
-    drawString(true, 10, 10, COLOR_RED, "Une exception s'est produite");
+    drawString(true, 10, 10, COLOR_RED, "An exception occurred");
     u32 posY;
-    if(dumpHeader->processor == 11) posY = drawFormattedString(true, 10, 30, COLOR_WHITE, "Processeur:       Arm11 (coeur %u)", dumpHeader->core);
-    else posY = drawString(true, 10, 30, COLOR_WHITE, "Processeur:       Arm9");
+    if(dumpHeader->processor == 11) posY = drawFormattedString(true, 10, 30, COLOR_WHITE, "Processor:       Arm11 (core %u)", dumpHeader->core);
+    else posY = drawString(true, 10, 30, COLOR_WHITE, "Processor:       Arm9");
 
     if(dumpHeader->type == 2)
     {
@@ -96,25 +96,25 @@ void detectAndProcessExceptionDumps(void)
         {
             u32 instr = *(vu32 *)(stackDump - 4);
             if(instr == 0xE12FFF7E)
-                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Type d'exception:  %s (%s)", handledExceptionNames[dumpHeader->type], specialExceptions[0]);
+                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Exception type:  %s (%s)", handledExceptionNames[dumpHeader->type], specialExceptions[0]);
             else if(instr == 0xEF00003C)
-                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Type d'exception:  %s (%s)", handledExceptionNames[dumpHeader->type], specialExceptions[1]);
+                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Exception type:  %s (%s)", handledExceptionNames[dumpHeader->type], specialExceptions[1]);
             else
-                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Type d'exception:  %s", handledExceptionNames[dumpHeader->type]);
+                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Exception type:  %s", handledExceptionNames[dumpHeader->type]);
         }
         else if((regs[16] & 0x20) != 0 && dumpHeader->codeDumpSize >= 2)
         {
             u16 instr = *(vu16 *)(stackDump - 2);
             if(instr == 0xDF3C)
-                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Type d'exception:  %s (%s)", handledExceptionNames[dumpHeader->type], specialExceptions[0]);
+                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Exception type:  %s (%s)", handledExceptionNames[dumpHeader->type], specialExceptions[0]);
             else
-                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Type d'exception:  %s", handledExceptionNames[dumpHeader->type]);
+                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Exception type:  %s", handledExceptionNames[dumpHeader->type]);
         }
         else
-            posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Type d'exception:  %s", handledExceptionNames[dumpHeader->type]);
+            posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Exception type:  %s", handledExceptionNames[dumpHeader->type]);
     }
     else
-        posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Type d'exception:  %s", handledExceptionNames[dumpHeader->type]);
+        posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Exception type:  %s", handledExceptionNames[dumpHeader->type]);
 
     if(dumpHeader->processor == 11 && dumpHeader->type >= 2)
     {
@@ -123,7 +123,7 @@ void detectAndProcessExceptionDumps(void)
         for(u32 i = 0; i < 15; i++)
             if(xfsr == faultStatusValues[i])
             {
-                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Statut de l'erreur:    %s", faultStatusNames[i]);
+                posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Fault status:    %s", faultStatusNames[i]);
                 break;
             }
     }
@@ -133,10 +133,10 @@ void detectAndProcessExceptionDumps(void)
         u32 size = dumpHeader->additionalDataSize;
         if(dumpHeader->processor == 11)
             posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE,
-                                    "Processus actuel: %.8s (%016llX)", (const char *)additionalData, *(vu64 *)(additionalData + 8));
+                                    "Current process: %.8s (%016llX)", (const char *)additionalData, *(vu64 *)(additionalData + 8));
         else
             posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE,
-                                    "Vidage de la memoire Arm9 a l'offset %X taille %lX", (uintptr_t)additionalData - (uintptr_t)dumpHeader, size);
+                                    "Arm9 memory dump at offset %X size %lX", (uintptr_t)additionalData - (uintptr_t)dumpHeader, size);
     }
     posY += SPACING_Y;
 
@@ -151,15 +151,15 @@ void detectAndProcessExceptionDumps(void)
     }
 
     if(dumpHeader->processor == 11 && dumpHeader->type == 3)
-        posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "%-7s%08lX       Type d'acces:: %s", "FAR", regs[19], regs[17] & (1u << 11) ? "Write" : "Read");
+        posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "%-7s%08lX       Access type: %s", "FAR", regs[19], regs[17] & (1u << 11) ? "Write" : "Read");
 
     posY += SPACING_Y;
 
     u32 mode = regs[16] & 0xF;
     if(dumpHeader->type == 3 && (mode == 7 || mode == 11))
-        posY = drawString(true, 10, posY + SPACING_Y, COLOR_YELLOW, "Dump incorrect: le code et/ou la pile n'ont pas ete transferes.") + SPACING_Y;
+        posY = drawString(true, 10, posY + SPACING_Y, COLOR_YELLOW, "Incorrect dump: failed to dump code and/or stack") + SPACING_Y;
 
-    u32 posYBottom = drawString(false, 10, 10, COLOR_WHITE, "Vidage de pile:") + SPACING_Y;
+    u32 posYBottom = drawString(false, 10, 10, COLOR_WHITE, "Stack dump:") + SPACING_Y;
 
     for(u32 line = 0; line < 19 && stackDump < additionalData; line++)
     {
@@ -169,7 +169,7 @@ void detectAndProcessExceptionDumps(void)
             drawFormattedString(false, 10 + 10 * SPACING_X + 3 * i * SPACING_X, posYBottom, COLOR_WHITE, "%02X", *stackDump);
     }
 
-    static const char *choiceMessage[] = {"Appuyer sur A pour sauvegarder le crash dump", "Appuyer sur n'importe quel autre bouton pour eteindre"};
+    static const char *choiceMessage[] = {"Press A to save the crash dump", "Press any other button to shutdown"};
 
     drawString(true, 10, posY + SPACING_Y, COLOR_WHITE, choiceMessage[0]);
     drawString(true, 10, posY + SPACING_Y + SPACING_Y , COLOR_WHITE, choiceMessage[1]);
@@ -189,12 +189,12 @@ void detectAndProcessExceptionDumps(void)
 
     if(fileWrite((void *)dumpHeader, path, dumpHeader->totalSize))
     {
-        posY = drawString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Vous pouvez trouver le dump dans le fichier suivant:");
+        posY = drawString(true, 10, posY + SPACING_Y, COLOR_WHITE, "You can find the dump in the following file:");
         posY = drawFormattedString(true, 10, posY + SPACING_Y, COLOR_WHITE, "%s:/luma/%s", isSdMode ? "SD" : "CTRNAND", path) + SPACING_Y;
     }
-    else posY = drawString(true, 10, posY + SPACING_Y, COLOR_RED, "Erreur d'ecriture du fichier dump");
+    else posY = drawString(true, 10, posY + SPACING_Y, COLOR_RED, "Error writing the dump file");
 
-    drawString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Appuyer sur n'importe quel bouton pour eteindre");
+    drawString(true, 10, posY + SPACING_Y, COLOR_WHITE, "Press any button to shutdown");
 
     waitInput(false);
 
