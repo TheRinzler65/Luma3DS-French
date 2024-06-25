@@ -87,8 +87,8 @@ void detectAndProcessExceptionDumps(void)
 
     drawString(true, 10, 10, COLOR_RED, "Une exception s'est produite");
     u32 posY;
-    if(dumpHeader->processor == 11) posY = drawFormattedString(true, 10, 30, COLOR_WHITE, "Processeur:       Arm11 (coeur %u)", dumpHeader->core);
-    else posY = drawString(true, 10, 30, COLOR_WHITE, "Processeur:       Arm9");
+    if(dumpHeader->processor == 11) posY = drawFormattedString(true, 10, 30, COLOR_WHITE, "Processeur:      Arm11 (coeur %u)", dumpHeader->core);
+    else posY = drawString(true, 10, 30, COLOR_WHITE, "Processeur:      Arm9");
 
     if(dumpHeader->type == 2)
     {
@@ -169,7 +169,7 @@ void detectAndProcessExceptionDumps(void)
             drawFormattedString(false, 10 + 10 * SPACING_X + 3 * i * SPACING_X, posYBottom, COLOR_WHITE, "%02X", *stackDump);
     }
 
-    static const char *choiceMessage[] = {"Appuyer sur A pour sauvegarder le crash dump", "Appuyer sur n'importe quel autre bouton pour eteindre"};
+    static const char *choiceMessage[] = {"Appuyer sur A pour sauvegarder le crash dump", "Appuyer sur n'importe quel autre bouton pour\n\x82""teindre"};
 
     drawString(true, 10, posY + SPACING_Y, COLOR_WHITE, choiceMessage[0]);
     drawString(true, 10, posY + SPACING_Y + SPACING_Y , COLOR_WHITE, choiceMessage[1]);
